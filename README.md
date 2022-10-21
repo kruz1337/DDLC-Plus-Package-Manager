@@ -17,6 +17,6 @@ This repository has Fastest Package Manager to Decrypt or Encrypt assets for DDL
 
 ### Options:
 ```
---encrypt   >   Encrypt's unity asset format to ddlc package format.
---decrypt   >   Decrypt's ddlc package format to unity asset format.  
+--encrypt     Encrypt's unity asset format to ddlc package format.
+--decrypt     Decrypt's ddlc package format to unity asset format.  
 ```
