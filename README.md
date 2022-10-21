@@ -3,6 +3,8 @@ This repository has Fastest Package Manager to Decrypt or Encrypt assets for DDL
 
 ![](https://img.shields.io/badge/language-ruby-bc0000?style=plastic)
 
+![Image of RequestX International Developer Group on Discord](https://github.com/kruz1337/DDLC-Plus-Package-Manager/blob/main/thumbnail5%20copy.png?raw=true)
+
 ## Installation
 * First of all you should install [Ruby](https://rubyinstaller.org/downloads/) on your PC.
 
