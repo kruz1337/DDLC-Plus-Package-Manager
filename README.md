@@ -10,9 +10,11 @@ This repository has Fastest Package Manager to Decrypt or Encrypt assets for DDL
 
 * Download project files on project page or clone this repository from GitBash or GitHub Desktop on your PC.
 
-* Finally run cmd in the directory where the project folder is located then you can run script typing ```main.rb``` or ```ruby main.rb```.
+* That's all for installation.
 
 ## Script Usage
+> Run cmd in the directory where the project folder is located then you can run script typing ```main.rb``` or ```ruby main.rb```.
+
 ```main.rb <File Path> <Output Directory> [TYPE]```
 
 ### Options:
