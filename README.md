@@ -11,7 +11,7 @@ This repository has Package Manager to Decrypt or Encrypt assets for DDLC Plus g
 * Finally run cmd in the directory where the project folder is located then you can run script typing ```main.rb``` or ```ruby main.rb```.
 
 ## Script Usage
-```main.rb <File Path> <Output Directory> [OPTION]```
+```main.rb <File Path> <Output Directory> [TYPE]```
 
 ### Options:
 ```
