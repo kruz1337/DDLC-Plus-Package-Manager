@@ -1,5 +1,5 @@
 # DDLC-Plus-Package-Manager
-This repository has Fastest Package Manager to Decrypt or Encrypt assets for DDLC Plus game.
+This repository has **Fastest** Package Manager to Decrypt or Encrypt assets for DDLC Plus game.
 
 ![](https://img.shields.io/badge/language-ruby-bc0000?style=plastic)
 
