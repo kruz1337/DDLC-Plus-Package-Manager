@@ -20,6 +20,7 @@ This repository has **Fastest** Package Manager to Decrypt or Encrypt assets for
 ### Options:
 ```
 --task-with-dir     Allows you type directory instead of path and runs task to all files in the directory.
+--format-extensions     If you use '--task-with-dir' runs task to files with the extension you specify. Usage: <Path/*.cy>
 --encrypt     Encrypt's unity asset format to ddlc package format.
 --decrypt     Decrypt's ddlc package format to unity asset format.
 ```
