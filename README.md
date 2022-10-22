@@ -15,10 +15,11 @@ This repository has **Fastest** Package Manager to Decrypt or Encrypt assets for
 ## Script Usage
 > Run cmd in the directory where the project folder is located then you can run script typing ```main.rb``` or ```ruby main.rb```.
 
-```main.rb <File Path> <Output Directory> [TYPE]```
+```main.rb <Path> <Output Directory> [OPTIONS]```
 
 ### Options:
 ```
+--task-with-dir     Allows you type directory instead of path and runs task to all files in the directory.
 --encrypt     Encrypt's unity asset format to ddlc package format.
---decrypt     Decrypt's ddlc package format to unity asset format.  
+--decrypt     Decrypt's ddlc package format to unity asset format.
 ```
