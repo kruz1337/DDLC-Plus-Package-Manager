@@ -15,7 +15,7 @@ This repository has **Fastest** Package Manager to Decrypt or Encrypt assets for
 ## Script Usage
 > Run cmd in the directory where the project folder is located then you can run script typing ```main.rb``` or ```ruby main.rb```.
 
-```main.rb <Path> <Output Directory> [OPTIONS]```
+```main.rb <Path> <Output Directory> [--decrypt, --encrypt] [OPTIONS]```
 
 ### Options:
 ```
