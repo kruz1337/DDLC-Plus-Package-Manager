@@ -76,15 +76,16 @@ if (ARGV[3] == "--task-with-dir")
     end
 else
     output_directory = File.expand_path(ARGV[1]) + "/" + File.basename(ARGV[0], ".*") + (ARGV[2] == "--decrypt" ? ".assets" : ".cy")
-
+    input_file_size = File.size(ARGV[0])
+  
     print("[*] Current file: %s.\n" % ARGV[0])
-    print("[*] File size: %s Bytes.\n" % File.size(ARGV[0]))
+    print("[*] File size: %s Bytes.\n" % input_file_size)
 
     begin
         input_file = File.open(ARGV[0], 'rb')
         output_file = File.open(output_directory, 'wb')
 
-        if File.size(ARGV[0]) > 268435456
+        if input_file_size > 268435456
             input_file.each_line.with_index do |line|
                 output_file.write(line.unpack('C*').map{ |a| a ^ 40.ord }.pack('C*'))
             end
